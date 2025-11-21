@@ -1,0 +1,59 @@
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/bootstrap/ssr
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+Homestead.json
+Homestead.yaml
+Thumbs.db
+
+
+# Laravel
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/.env
+/.env.backup
+/.env.local
+Homestead.yaml
+Homestead.json
+
+# Vite
+/public/build
+/.vite
+
+# IDE & OS
+/.idea
+/.vscode
+.DS_Store
+Thumbs.db
+
+# NPM logs
+npm-debug.log
+yarn-debug.log
+pnpm-debug.log
+
+# Composer
+composer.lock
+
+# Laravel Telescope
+/telescope/entries
+

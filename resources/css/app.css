@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    /* Brand primaries - warm & energetic */
+    --flareOrange: #FF8A3D;
+    --flareOrangeLight: #FFE6D5;
+    --sunYellow: #FFD479;
+    --coralPink: #FF6B6B;
+
+    /* Backgrounds - bright & airy */
+    --skyBlue: #F0F9FF;        /* Soft sky blue */
+    --creamWhite: #FFFEF9;     /* Warm cream */
+    --peachMist: #FFF5F0;      /* Soft peach */
+    --surfaceWhite: #FFFFFF;
+    --mintFresh: #F0FDF9;      /* Light mint green */
+
+    /* Text - softer than before */
+    --charcoal: #2D3748;       /* Softer than slate-900 */
+    --textGray: #718096;       /* Medium gray */
+    --textLight: #A0AEC0;      /* Light gray */
+
+    /* Accents - playful pops of color */
+    --mintAccent: #10B981;     /* Vibrant mint */
+    --lavender: #E9D5FF;       /* Soft purple */
+    --oceanBlue: #3B82F6;      /* Friendly blue */
+}
+
+/* Utility classes for backgrounds */
+.bg-flareOrange { background-color: var(--flareOrange); }
+.bg-flareOrangeLight { background-color: var(--flareOrangeLight); }
+.bg-sunYellow { background-color: var(--sunYellow); }
+.bg-coralPink { background-color: var(--coralPink); }
+.bg-skyBlue { background-color: var(--skyBlue); }
+.bg-creamWhite { background-color: var(--creamWhite); }
+.bg-peachMist { background-color: var(--peachMist); }
+.bg-surfaceWhite { background-color: var(--surfaceWhite); }
+.bg-mintFresh { background-color: var(--mintFresh); }
+.bg-lavender { background-color: var(--lavender); }
+
+/* Utility classes for text */
+.text-charcoal { color: var(--charcoal); }
+.text-textGray { color: var(--textGray); }
+.text-textLight { color: var(--textLight); }
+.text-flareOrange { color: var(--flareOrange); }
+.text-mintAccent { color: var(--mintAccent); }
+.text-oceanBlue { color: var(--oceanBlue); }
+
+/* Utility classes for borders */
+.border-textLight { border-color: var(--textLight); }
+.border-flareOrange { border-color: var(--flareOrange); }
+.border-lavender { border-color: var(--lavender); }
+.border-mintAccent { border-color: var(--mintAccent); }
